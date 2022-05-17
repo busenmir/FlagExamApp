@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlagExamApp</string>
+    <string name="sinava_ho_geld_n_z">SINAVA HOŞGELDİNİZ</string>
+    <string name="ba_la">BAŞLA</string>
+    <string name="_3_do_ru_2_yanli">3 DOĞRU 2 YANLIŞ</string>
+    <string name="basari">% 60 BAŞARI</string>
+    <string name="again">TEKRAR DENE</string>
+</resources>

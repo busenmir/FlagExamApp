@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:text="@string/_3_do_ru_2_yanli"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:background="@color/black"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="50"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewYuzdeSonuc"
+        android:layout_width="244dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="118dp"
+        android:background="#64B5F6"
+        android:paddingLeft="5dp"
+        android:paddingTop="30dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="30dp"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:text="@string/basari"
+        android:textAlignment="center"
+        android:textColor="@color/shadow"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSonuc" />
+
+    <Button
+        android:id="@+id/buttonTekrar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
